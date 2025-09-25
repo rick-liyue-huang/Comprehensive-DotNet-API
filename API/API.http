@@ -1,6 +1,10 @@
-@API_HostAddress = http://localhost:5156
+@host = https://localhost
+@port = 5156
+@API_HostAddress = {{host}}:{{port}}
 
-GET {{API_HostAddress}}/weatherforecast/
+GET {{API_HostAddress}}/weatherforecast/hello
 Accept: application/json
+ProjectUrl: {{$projectUrl}}
+Guid: {{$guid}}
 
 ###
