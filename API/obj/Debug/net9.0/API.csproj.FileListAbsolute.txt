@@ -34,3 +34,5 @@
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.csproj.AssemblyReference.cache
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.MvcApplicationPartsAssemblyInfo.cs
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.csproj.Up2Date
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/API.xml
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.xml
