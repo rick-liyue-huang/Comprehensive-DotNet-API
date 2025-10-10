@@ -1,3 +1,8 @@
+
+using Infrastructure.Extensions;
+using Infrastructure.Seeders;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,8 +19,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+// add Infrastructure as a dependency already.
+builder.Services.AddInfrastructure(builder.Configuration);
+
 
 var app = builder.Build();
+
+var scope = app.Services.CreateScope();
+var seeder = scope.ServiceProvider.GetRequiredService<IRestaurantsSeeders>();
+await seeder.Seed();
 
 // Configure the HTTP request pipeline.
 

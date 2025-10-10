@@ -4,15 +4,16 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Persistence;
 
-public class RestaurantsDbContext: DbContext
+public class RestaurantsDbContext(DbContextOptions<RestaurantsDbContext> options): DbContext(options)
 {
-    public DbSet<Restaurant> Restaurants { get; set; }
-    public DbSet<Dish> Dishes { get; set; }
+    internal DbSet<Restaurant> Restaurants { get; set; }
+    internal DbSet<Dish> Dishes { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        optionsBuilder.UseSqlServer("Server=localhost,2022;Database=RestaurantDb;User Id=sa;Password=MyStrong#Pass123;TrustServerCertificate=True");
-    }
+    // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    // {
+    //     optionsBuilder.UseSqlServer("Server=localhost,2022;Database=RestaurantDb;User Id=sa;Password=MyStrong#Pass123;TrustServerCertificate=True");
+    // }
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
