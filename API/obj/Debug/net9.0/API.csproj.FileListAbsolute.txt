@@ -6,8 +6,6 @@
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/API.runtimeconfig.json
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/API.dll
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/API.pdb
-/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Newtonsoft.Json.dll
-/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.csproj.AssemblyReference.cache
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.GeneratedMSBuildEditorConfig.editorconfig
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.AssemblyInfoInputs.cache
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.AssemblyInfo.cs
@@ -24,9 +22,15 @@
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.API.props
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.API.props
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/staticwebassets.pack.json
-/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.csproj.Up2Date
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.dll
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/refint/API.dll
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.pdb
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.genruntimeconfig.cache
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/ref/API.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.csproj.AssemblyReference.cache
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.MvcApplicationPartsAssemblyInfo.cs
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/obj/Debug/net9.0/API.csproj.Up2Date
