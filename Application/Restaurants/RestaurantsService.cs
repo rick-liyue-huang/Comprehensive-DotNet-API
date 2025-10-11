@@ -14,4 +14,11 @@ public class RestaurantsService(IRestaurantsRepository restaurantsRepository, IL
         var restaurants = await restaurantsRepository.GetAllAsync();
         return restaurants;
     }
+
+    public async Task<Restaurant?> GetRestaurantById(int id)
+    {
+        logger.LogInformation("Getting restaurant with id {Id}", id);
+        var restaurant = await restaurantsRepository.GetByIdAsync(id);
+        return restaurant;
+    }
 }
