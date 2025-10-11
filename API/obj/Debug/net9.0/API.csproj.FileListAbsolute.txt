@@ -181,3 +181,5 @@
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Physical.dll
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/AutoMapper.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

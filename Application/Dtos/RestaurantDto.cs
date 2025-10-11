@@ -17,22 +17,22 @@ public class RestaurantDto
     public List<DishDto> Dishes { get; set; } = [];
 
 
+    // THE BELOW IS THE OLD WAY OF AND REPLACED BY THE AUTOMAPPER!!
+    // public static RestaurantDto? FromEntity(Restaurant? restaurant)
+    // {
+    //     if (restaurant == null) return null;
 
-    public static RestaurantDto? FromEntity(Restaurant? restaurant)
-    {
-        if (restaurant == null) return null;
-
-        return new RestaurantDto()
-        {
-            Id = restaurant.Id,
-            Name = restaurant.Name,
-            Description = restaurant.Description,
-            Category = restaurant.Category,
-            HasDelivery = restaurant.HasDelivery,
-            City = restaurant.Address?.City,
-            Street = restaurant.Address?.Street,
-            PostalCode = restaurant.Address?.PostalCode,
-            Dishes = restaurant.Dishes.Select(DishDto.FromEntity).ToList()
-        };
-    }
+    //     return new RestaurantDto()
+    //     {
+    //         Id = restaurant.Id,
+    //         Name = restaurant.Name,
+    //         Description = restaurant.Description,
+    //         Category = restaurant.Category,
+    //         HasDelivery = restaurant.HasDelivery,
+    //         City = restaurant.Address?.City,
+    //         Street = restaurant.Address?.Street,
+    //         PostalCode = restaurant.Address?.PostalCode,
+    //         Dishes = restaurant.Dishes.Select(DishDto.FromEntity).ToList()
+    //     };
+    // }
 }
