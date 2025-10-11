@@ -1,4 +1,5 @@
 
+using Application.Extensions;
 using Infrastructure.Extensions;
 using Infrastructure.Seeders;
 
@@ -19,6 +20,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+builder.Services.AddApplication();
 // add Infrastructure as a dependency already.
 builder.Services.AddInfrastructure(builder.Configuration);
 

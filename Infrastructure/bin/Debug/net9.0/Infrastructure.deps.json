@@ -14,7 +14,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "9.0.9",
           "Microsoft.Extensions.Configuration": "9.0.9",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "9.0.9",
-          "Microsoft.Extensions.Configuration.Json": "9.0.9"
+          "Microsoft.Extensions.Configuration.Json": "9.0.9",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.9"
         },
         "runtime": {
           "Infrastructure.dll": {}
@@ -1099,7 +1100,8 @@
       },
       "Application/1.0.0": {
         "dependencies": {
-          "Domain": "1.0.0"
+          "Domain": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.9"
         },
         "runtime": {
           "Application.dll": {

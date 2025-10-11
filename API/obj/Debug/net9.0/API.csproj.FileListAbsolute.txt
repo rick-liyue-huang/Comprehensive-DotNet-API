@@ -174,3 +174,10 @@
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Microsoft.Extensions.Configuration.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Microsoft.Extensions.Configuration.FileExtensions.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Json.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Abstractions.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Microsoft.Extensions.FileProviders.Physical.dll
+/Users/rickhuang668/Projects/Comprehensive-DotNet-API/API/bin/Debug/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll

@@ -1,5 +1,7 @@
 
+using Domain.Repositories;
 using Infrastructure.Persistence;
+using Infrastructure.Repositories;
 using Infrastructure.Seeders;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -16,5 +18,6 @@ public static class ServiceCollectionExtensions
 
         // add seeders
         services.AddScoped<IRestaurantsSeeders, RestaurantsSeeders>();
+        services.AddScoped<IRestaurantsRepository, RestaurantsRepository>();
     }
 }
